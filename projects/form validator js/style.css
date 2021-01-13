@@ -1,0 +1,72 @@
+:root{
+    --success-color: green;
+    --error-color: red; 
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #f9fafb;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+}
+.card{
+    
+    box-shadow: 2px 9px 20px -1px rgba(0,0,0,0.75);
+    border-radius: 12px;
+   
+    
+}
+.card{
+    
+
+   padding: 0.5em 2em;
+}
+
+input{
+    padding: 0.5em;
+
+    width: 100%;
+}
+
+
+label{
+    padding: 0.5em 0em;
+    display: block;
+    width: 100%;
+   
+    
+}
+button{
+    width: 100%;
+    background-color: rgb(95, 83, 105);
+    border: none;
+    padding: 1em;
+    margin-top: 0.2em;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+ 
+}
+.form-control small{
+    color: red;
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+.form-control.error input{
+    border: 1px red solid;
+}
+.form-control.success input{
+    border:1px  green solid;
+
+}
