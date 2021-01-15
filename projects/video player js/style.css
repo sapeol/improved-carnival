@@ -43,7 +43,7 @@ h1{
     cursor: pointer;
     color: rgb(167, 167, 167);
 }
-.btn:focus{
+video, .btn:focus{
     outline: 0;
 }
 /* .controls .fa-play{
