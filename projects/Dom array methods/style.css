@@ -59,5 +59,6 @@ h4{
 .person{
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 18px;
+    padding: 5px;
 }
