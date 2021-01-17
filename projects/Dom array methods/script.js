@@ -64,8 +64,10 @@ function sorted(){
 
 // totals the networth
 function total(){
-   const totalmonke = data.reduce((acc, user) => (acc =+ user.money), 0);
-   console.log(totalmonke);
+   const totalmonke = data.reduce((acc, user) => (acc += user.money), 0);
+   const weathem = document.createElement('div');
+   weathem.innerHTML =`<h4>Total money: <strong>$${formatmoney(totalmonke)}</strong></h4>`
+   main.appendChild(weathem);
 }
 
 
