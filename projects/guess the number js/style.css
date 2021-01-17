@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(112, 112, 112);
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p{
+    line-height: 1.5;
+    margin: 0;
+}
+.play-again{
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px olive solid;
+}
+.msg{
+    font-size: 1em;
+    margin-top: 2px;
+}
+.box{
+     border: 1px solid pink;
+     display: block;
+     font-size: 20px;
+     padding: 5px;
+     margin: 5px;
+}
+#start{
+    padding: 20px 40px;
+    margin: 5px;
+    cursor: pointer;
+}
