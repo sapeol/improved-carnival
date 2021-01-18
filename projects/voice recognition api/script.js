@@ -1,5 +1,6 @@
 const msg = document.getElementById('msg');
 const button = document.getElementById('start');
+const spam = document.getElementById('box')
 
 const number = getrandom();
 console.log(number);
@@ -22,6 +23,8 @@ function onSpeak(e){
     if (guesses == number){
         console.log("yes")
     }
+    const ele = `$`;
+    spam.innerHTML= guesses;
 }
 
 //fuction for random 
